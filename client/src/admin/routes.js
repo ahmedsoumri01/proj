@@ -1,19 +1,17 @@
-
-
 // Material Dashboard 2 React layouts
-import Dashboard from "layouts/dashboard";
-import Tables from "layouts/tables";
-import Project from "layouts/projectTable";
-import Ticket from "layouts/ticketTable.js";
+import Dashboard from "./layouts/dashboard";
+import Tables from "./layouts/tables";
+import Project from "./layouts/projectTable";
+import Ticket from "./layouts/ticketTable.js";
 
-import Billing from "layouts/billing";
+import Billing from "./layouts/billing";
 
-import Notifications from "layouts/notifications";
-import Profile from "layouts/profile";
-import SignIn from "layouts/authentication/sign-in";
-import SignUp from "layouts/authentication/sign-up";
-import EditUser from "layouts/tables/data/editUser";
-import AddUser from "layouts/tables/data/addUser" ; 
+import Notifications from "./layouts/notifications";
+import Profile from "./layouts/profile";
+import SignIn from "./layouts/authentication/sign-in";
+import SignUp from "./layouts/authentication/sign-up";
+import EditUser from "./layouts/tables/data/editUser";
+import AddUser from "./layouts/tables/data/addUser";
 
 import Icon from "@mui/material/Icon";
 
@@ -107,6 +105,5 @@ const routes = [
     component: <AddUser />,
   },
 ];
-
 
 export default routes;

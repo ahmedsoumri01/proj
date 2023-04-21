@@ -5,7 +5,8 @@ import UserInterface from "pages/userInterface/UserInterface";
 import Login from "./authentication/sign-in/Login";
 import HandleSignUp from "./authentication/sign-up/HandleSignUp";
 import ForgotPassword from "./authentication/reset-password/ForgotPassword";
-import AdminDashboard from "admin/AdminDashboard";
+import AppAdmin from "admin/AppAdmin";
+
 function App() {
   return (
     <div>
@@ -15,6 +16,7 @@ function App() {
         <Route path="/admin_Dashboard" element={<HandleSignUp />} />
         <Route path="/reset_password" element={<ForgotPassword />} />
         <Route path="/UserInterface/client" element={<UserInterface />} />
+        <Route path="/UserInterface/admin" element={<UserInterface />} />
       </Routes>
     </div>
   );

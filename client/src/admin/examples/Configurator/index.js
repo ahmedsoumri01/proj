@@ -20,12 +20,12 @@ import Switch from "@mui/material/Switch";
 import IconButton from "@mui/material/IconButton";
 import Icon from "@mui/material/Icon";
 // Material Dashboard 2 React components
-import MDBox from "components/MDBox";
-import MDTypography from "components/MDTypography";
-import MDButton from "components/MDButton";
+import MDBox from "../../components/MDBox";
+import MDTypography from "../../components/MDTypography";
+import MDButton from "../../components/MDButton";
 
 // Custom styles for the Configurator
-import ConfiguratorRoot from "examples/Configurator/ConfiguratorRoot";
+import ConfiguratorRoot from "./ConfiguratorRoot";
 
 // Material Dashboard 2 React context
 import {
@@ -36,7 +36,7 @@ import {
   setFixedNavbar,
   setSidenavColor,
   setDarkMode,
-} from "context";
+} from "../../context";
 
 function Configurator() {
   const [controller, dispatch] = useMaterialUIController();

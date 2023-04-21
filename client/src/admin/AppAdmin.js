@@ -41,7 +41,7 @@ import { useMaterialUIController, setMiniSidenav, setOpenConfigurator } from "./
 import brandWhite from "./assets/images/logo-ct.png";
 import brandDark from "./assets/images/logo-ct-dark.png";
 
-export default function AdminDashboard() {
+export default function AppAdmin() {
   const [controller, dispatch] = useMaterialUIController();
   const {
     miniSidenav,
